@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Rubik:wght@300;700&display=swap');
+
+body {
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.gray-bg {
+    background: linear-gradient(270deg, #444444 6.95%, #717171 26.52%, #808080 45.03%, #717171 65.67%, #444444 80.64%);
+}
+
+.content {
+    padding-top: 70px;
+}
+
+.content .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content__wrap {
+    margin: 85px 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+
+.content .content__wrap p {}
+
+.content__flex {
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__text,
+.content__form {
+    width: 50%;
+    margin: 0 25px;
+}
+
+
+.list__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    text-align: start;
+    padding: 25px 22px;
+    border: solid 4px rgba(10, 187, 182, 0.59);
+    border-radius: 74px;
+}
+
+.content li {
+    margin: 15px 0;
+}
+
+.content__form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__form p {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.content__form a {
+    padding: 13px 0;
+    width: 70%;
+    background: #0ABBB6;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 300;
+    border: solid 2px #0ABBB6;
+
+    transition: 0.3s;
+}
+
+.content__form a:hover {
+    background-color: white;
+    color: #0ABBB6;
+    border: solid 2px #0ABBB6;
+}
+
+@media (max-width: 767px) {
+    .content__flex {
+        display: block;
+    }
+
+    .content__text,
+    .content__form {
+        width: 90%;
+        margin: 0;
+    }
+
+    .content__form {
+        margin: 0 auto;
+    }
+
+    .content__text {
+        margin: 0 15px;
+    }
+
+    .list__block {
+        margin-bottom: 30px;
+    }
+
+    .content__wrap {
+        margin: 40px 0;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .list__block {
+        padding: 0;
+        border: 0px;
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    .content__text {
+        margin: 0 0;
+    }
+    
+    .content__form a  {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,19 @@
+.swiper {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.swiper-slide {
+    align-self: center;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+}
+
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #09BAB4;
+}

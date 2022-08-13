@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Rubik:wght@300;700&display=swap');
+
+body {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.image-bg {
+    background: url(../img/image-bg.png) 0 0 no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding-top: 70px;
+}
+
+.content__wrap {
+    margin: 109px 0;
+}
+
+.content__text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 80px;
+    line-height: 40px;
+}
+
+.content p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.content .content__link {
+    text-align: center;
+}
+
+.invest__arrow img {
+    max-width: 100%;
+}
+
+.invest__arrow {
+    margin-bottom: 15px;
+}
+
+.fleeca {
+    margin-bottom: 30px;
+}
+
+.fleeca img {
+    max-width: 100%;
+}
+
+.invest__block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.invest__item {
+    padding: 13px 20px;
+    background: #0ABBB6;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.25);
+    border: solid 2px #0ABBB6;
+}
+
+@media (max-width: 480px) {
+    .invest__block {
+        flex-direction: column;
+    }
+    
+    .invest__item {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .invest__arrow {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .content p {
+        font-size: 17px;
+    }
+}
